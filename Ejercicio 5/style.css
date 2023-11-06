@@ -1,0 +1,13 @@
+a {
+    color: rgb(85, 135, 241);
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+a:visited {
+    color: rgb(160, 29, 160);
+}
+
+a:hover {
+    color: rgb(0, 143, 0);
+}

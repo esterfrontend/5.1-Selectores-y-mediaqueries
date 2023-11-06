@@ -1,0 +1,42 @@
+body {
+    font-size: 11px;
+}
+
+#content, 
+#recomendations {
+    width: 100%;
+    background-color: rgb(245, 118, 118);
+    word-wrap: break-word;
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+
+    #content {
+        width: 60%;
+        background-color: rgb(165, 225, 165);
+    }
+
+    #recomendations {
+        width: 30%;
+        background-color: rgb(137, 189, 237);
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        font-size: 14px;
+    }
+
+    #content {
+        width: 80%;
+        background-color: rgb(229, 188, 243);
+    }
+
+    #recomendations {
+        width: 15%;
+        background-color: rgb(250, 250, 182);
+    }
+}
